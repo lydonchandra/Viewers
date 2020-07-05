@@ -61,6 +61,7 @@
     "@ohif/i18n": "^0.52.8",
     "@ohif/ui": "^1.5.1",
     "@tanem/react-nprogress": "^1.1.25",
+    "ch.lydon.ohif.closehole": "link:.yalc/ch.lydon.ohif.closehole",
     "classnames": "^2.2.6",
     "core-js": "^3.2.1",
     "cornerstone-core": "^2.2.8",

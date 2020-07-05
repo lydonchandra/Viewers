@@ -278,7 +278,10 @@ const commandsModule = ({ servicesManager }) => {
       cornerstone.getEnabledElements().forEach(enabledElement => {
         cornerstone.updateImage(enabledElement.element);
       });
-    }
+    },
+    closeHole: () => {
+      alert('closeHole2');
+    },
   };
 
   const definitions = {
@@ -392,6 +395,11 @@ const commandsModule = ({ servicesManager }) => {
     setWindowLevel: {
       commandFn: actions.setWindowLevel,
       storeContexts: ['viewports'],
+      options: {},
+    },
+    closeHole: {
+      commandFn: actions.closeHole,
+      storeContexts: [],
       options: {},
     },
   };
